@@ -1,0 +1,82 @@
+{
+  "asset": {
+    "copyright": "Model by Cem Yuksel from benedikt-bitterli.me/resources",
+    "version": "4.2"
+  },
+  "cameras": {
+    "default": {
+      "lens": 0.05,
+      "aperture": 0.0,
+      "aspect": 1.0,
+      "lookat": [
+        0,
+        15,
+        23,
+        0,
+        9.5,
+        0,
+        0,
+        1,
+        0
+      ]
+    }
+  },
+  "environments": [
+    {
+      "name": "sky",
+      "emission": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "emission_tex": 0
+    }
+  ],
+  "textures": [
+    {
+      "name": "sky",
+      "uri": "textures/sky.hdr"
+    }
+  ],
+  "shapes": [
+    {
+      "name": "hair1",
+      "uri": "shapes/curly-hair.ply"
+    }
+  ],
+  "subdivs": [],
+  "materials": [
+    {
+      "name": "hairs",
+      "type": "hair",
+      "eumelanin": 0.3,
+      "sigmaA": [
+        0.06,
+        0.10,
+        0.20
+      ],
+      "roughness": 0.1
+    }
+  ],
+  "instances": [
+    {
+      "name": "curly-hair",
+      "frame": [
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "shape": 0,
+      "material": 0
+    }
+  ]
+}
